@@ -1,0 +1,37 @@
+body, head {
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "width" 100;
+}
+
+h1 {
+    color: crimson;
+    font-weight: bolder;
+}
+
+#fotos:first-child {
+    color: darkslategrey;
+    font-weight: bolder;
+
+}
+
+#fotos:first-child {
+    color: darkslategrey;
+    font-weight:lighter;
+    
+}
+
+#videos:first-child {
+    color:darkslateblue;
+    font-weight:lighter;
+
+}
+
+#sonidos:first-child {
+    color:indianred;
+    font-weight:lighter;
+    
+}

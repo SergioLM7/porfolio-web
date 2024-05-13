@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles.css" rel="stylesheet" type="text/css" />
+    <title>Contacto</title>
+</head>
+<body>
+    <h1>Contacto e información</h1>
+    <p>Para cualquier tipo de propuesta, sugerencia o solicitud, puedes contactarme rellenando el siguiente formulario. Estaré encantado de leerte. &#128578;
+    </p>
+    <form>
+        <section id="datos_personales">
+          <fieldset>
+            <legend>Datos personales</legend>
+            <label for="nombre">Nombre:</label>
+            <input name="nombre" type="text" id="nombre" />
+            <label for="apellidos">Apellido(s):</label>
+            <input name="apellidos" type="text" id="apellidos"/>
+          </fieldset>
+          <br>
+          <fieldset>
+            <label for="remitente"><legend>Remitente</legend></label>
+              <input type="radio" value="empresa" name="remitente" id="remitente" /> Empresa
+              <input type="radio" name="remitente" value="aficionado" id="remitente" /> Aficionado
+              <input type="radio" name="remitente" value="otros" id="remitente" /> Otro
+          </fieldset>
+          <br>
+          <fieldset>
+            <label for="email"><legend>Email</legend></label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Revísalo bien"/>
+          </fieldset>
+        </section>
+        <br>
+        <section id="opciones">
+          <fieldset>
+            <legend>Tu propuesta</legend>
+         <label for="proposicion"></label>
+         <select name="select" id="proposicion" required>
+            <option value="colaboracion" id="proposicion" selected><Canvas>Colaboración</Canvas></option>
+            <option value="sugerencia" id="proposicion">Sugerencia</option>
+            <option value="propuesta" id="proposicion">Propuesta</option>
+            <option value="otro" id="proposicion">Otro</option>
+         </select>
+        </fieldset>
+        </section>
+        <hr>
+        <section id="mensaje">
+            <fieldset>
+              <legend>Deja tu mensaje</legend>
+              <label for="mensaje"></label>
+              <textarea id="mensaje" placeholder="No te dejes nada en el tintero" style="width: 200px;height:75px;" ></textarea>
+            </fieldset>
+          </section>
+        <hr>
+        <section id="botones">
+          <button type="button" name="enviar" id="enviar">Enviar</button>
+          <input type="reset" name="restablecer" id="restablecer">
+        </section>
+    </form>
+    <hr>
+    <footer>
+        <section><a href="./index.html">INICIO</a></section>
+    </footer>
+</body>
+</html>
